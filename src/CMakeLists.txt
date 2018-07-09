@@ -1,9 +1,8 @@
 project(${CMAKE_PROJECT_NAME}_lib)
 
-set(HEADER_FILES
-)
+set(HEADER_FILES)
 set(SOURCE_FILES
-)
+        util/List.cpp)
 
 if (EXISTS ${SOURCE_FILES})
     # The library contains header and source files.
